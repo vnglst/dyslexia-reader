@@ -1,0 +1,56 @@
+h2 { 
+    font-family: opendyslexic;
+}
+
+button {
+  margin: 10px;
+  box-shadow: rgb(84, 163, 247) 0px 1px 0px 0px inset;
+  background: linear-gradient(rgb(0, 125, 193) 5%, rgb(0, 97, 167) 100%) rgb(0, 125, 193);
+  border-radius: 3px;
+  border: 1px solid rgb(18, 77, 119);
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: rgb(21, 70, 130) 0px 1px 0px;
+}
+
+.Stop {
+  box-shadow: rgb(207, 134, 108) 0px 1px 0px 0px inset;
+  background: linear-gradient(rgb(208, 69, 27) 5%, rgb(188, 51, 21) 100%) rgb(208, 69, 27);
+  border: 1px solid rgb(148, 41, 17);
+  text-shadow: rgb(133, 70, 41) 0px 1px 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  margin-bottom: 15px;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  padding: 15px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
